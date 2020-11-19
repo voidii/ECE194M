@@ -33,16 +33,21 @@ public class Player_health : MonoBehaviour
        if(collision.collider.tag == "Fire"){
            health -= 1;
        }
+       if(collision.collider.tag == "Healing"){
+           health += 1;
+       }
        Debug.Log("Tag is " + collision.collider.name);
     }
 
     void OnCollisionEnter(Collision collision) {
        
+        Cursor.visible = true;
+        Screen.lockCursor = false;
        if(collision.collider.tag == "Dummie"){
-           SceneManager.LoadScene(3);
+           SceneManager.LoadScene(4);
        }
        if(collision.collider.tag == "GameOver"){
-           SceneManager.LoadScene(4);
+           SceneManager.LoadScene(3);
        }
        Debug.Log("Tag is " + collision.collider.name);
     }

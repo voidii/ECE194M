@@ -17,7 +17,8 @@ public class Start_Menu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Cursor.visible = true;
+        Screen.lockCursor = false;
     }
     public void PlayGame(){
         SceneManager.LoadScene(1);

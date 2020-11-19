@@ -22579,7 +22579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 856ddc11c4d1bd54885aa67f69f72cdf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.94
+      value: 1.43
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 856ddc11c4d1bd54885aa67f69f72cdf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22798,7 +22798,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 283, y: 324}
+  m_AnchoredPosition: {x: 505, y: 348}
   m_SizeDelta: {x: 394.16, y: 22.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &595501433 stripped
@@ -31767,6 +31767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teleporter Pad E
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9966aa3c008742041a74ffbeb93083cd, type: 3}
+      propertyPath: m_TagString
+      value: Healing
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9966aa3c008742041a74ffbeb93083cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -41.08
@@ -31809,6 +31813,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9966aa3c008742041a74ffbeb93083cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13600000, guid: 9966aa3c008742041a74ffbeb93083cd, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -39305,7 +39313,7 @@ GameObject:
   - component: {fileID: 1039036125}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: GameOver
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73369,15 +73377,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479812, guid: c391f12a928274acab8576bb6030641d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -35.71
+      value: -10.82
       objectReference: {fileID: 0}
     - target: {fileID: 479812, guid: c391f12a928274acab8576bb6030641d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.15
+      value: 2.539
       objectReference: {fileID: 0}
     - target: {fileID: 479812, guid: c391f12a928274acab8576bb6030641d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -35.14
+      value: 36.18
       objectReference: {fileID: 0}
     - target: {fileID: 479812, guid: c391f12a928274acab8576bb6030641d, type: 3}
       propertyPath: m_LocalRotation.x

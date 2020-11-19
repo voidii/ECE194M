@@ -4,5 +4,7 @@ So I made a FPS game. You have two different kinds of weapon with unlimited aomo
 
 The fun part is to jump on the wooden box on fire and shootingzombie at a distance. 
 
-For the grader to see the game easier, you can just jump on the top of the buildings and see the map and fire area so you dont have to waste time. It is only to make grader'f life easier. 
+For the grader to see the game easier, you can just jump on the top of the buildings and see the map and fire area so you dont have to waste time. It is only to make grader's life easier. 
+
+Known bugs: The zombies will be floating on air... I dont know why the nav mesh just cant bake under ceratin height, I can only make it so low... Will try to fix that. The physics is also a bit weird. It has to do with the asset I believe. The fraction between objects are pretty high I don't know why. 
 
