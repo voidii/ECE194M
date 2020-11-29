@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c8ccb8a03f08646b2ec0522b88a75b, type: 3}
+  m_Name: NetworkConfiguration
+  m_EditorClassIdentifier: 
+  ServerData:
+  - Name: Authenticator
+    ServerType: 0
+    Url: http://localhost:80/auth
+  - Name: Game Provider
+    ServerType: 1
+    Url: http://localhost:80/gameprovider
+  - Name: Game
+    ServerType: 2
+    Url: http://localhost:80/game
+  - Name: Character
+    ServerType: 3
+    Url: http://localhost:80/character
+  - Name: Chat
+    ServerType: 4
+    Url: http://localhost:80/chat
+  HostingEnvironment: 1

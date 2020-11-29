@@ -8,3 +8,5 @@ For the grader to see the game easier, you can just jump on the top of the build
 
 Known bugs: The zombies will be floating on air... I dont know why the nav mesh just cant bake under ceratin height, I can only make it so low... Will try to fix that. The physics is also a bit weird. It has to do with the asset I believe. The fraction between objects are pretty high I don't know why. 
 
+Link:https://github.com/voidii/ECE194M/tree/master
+
