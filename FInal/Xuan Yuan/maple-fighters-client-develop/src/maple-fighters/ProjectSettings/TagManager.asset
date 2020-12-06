@@ -10,6 +10,8 @@ TagManager:
   - Minimap Camera
   - Ground
   - Scene
+  - Hook
+  - main
   layers:
   - Default
   - TransparentFX
@@ -26,7 +28,7 @@ TagManager:
   - NPC
   - Portal
   - Mob
-  - 
+  - caonima
   - 
   - 
   - 
